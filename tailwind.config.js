@@ -17,11 +17,14 @@ module.exports = {
         dosis: ['Dosis', 'sans-serif']
       },
       colors : {
-        'dark-green': '#4BAEA0',
-        'light-green': '#B6E6BD',
-        'light-yellow': '#F1F0CF',
-        'light-pink': '#F0C9C9'
+        'dark-orange': '#FF430F',
+        'orange': '#FF7B54',
+        'light-orange': '#FFB26B'
       },
+
+      spacing: {
+        128: '32rem'
+      }
     },
   },
   plugins: [],

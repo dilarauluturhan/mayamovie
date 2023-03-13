@@ -18,47 +18,47 @@
 
 <body>
   <!-- Header Section -->
-  <header class="bg-black py-6 lg:py-12 text-emerald-600 font-tiltNeon uppercase">
+  <header class="bg-black py-6 lg:py-12 text-dark-orange font-tiltNeon uppercase">
     <!-- Header Container -->
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
       <!-- Logo -->
       <a href="#\"
-        class="pl-5 md:pl-0 text-4xl lg:text-6xl font-bold text-emerald-600 text-transparent bg-gradient-to-r bg-clip-text from-dark-green to-white">MAYA</a>
+        class="pl-5 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-dark-orange to-white">MAYA</a>
       <!-- Mobile Menu -->
       <div class="block md:hidden pr-5">
         <div class="space-y-1 cursor-pointer">
-          <div class="bg-gray-100 w-8 h-1 rounded-full"></div>
-          <div class="bg-gray-100 w-8 h-1 rounded-full"></div>
-          <div class="bg-gray-100 w-8 h-1 rounded-full"></div>
+          <div class="bg-dark-orange w-8 h-1 rounded-full"></div>
+          <div class="bg-dark-orange w-8 h-1 rounded-full"></div>
+          <div class="bg-dark-orange w-8 h-1 rounded-full"></div>
         </div>
       </div>
       <!-- Navigation -->
       <nav class="hidden md:flex justify-between flex-1">
         <!-- Menu -->
         <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
-          <a href="#\" class="hover:text-light-green text-white transatition duration-300">movies</a>
-          <a href="#\" class="hover:text-light-green text-white transatition duration-300">celebrities</a>
-          <a href="#\" class="hover:text-light-green text-white transatition duration-300">blog</a>
-          <a href="#\" class="hover:text-light-green text-white transatition duration-300">news</a>
-          <a href="#\" class="hover:text-light-green text-white transatition duration-300">about</a>
+          <a href="#\" class="hover:text-orange text-white transation duration-300">movies</a>
+          <a href="#\" class="hover:text-orange text-white transation duration-300">celebrities</a>
+          <a href="#\" class="hover:text-orange text-white transation duration-300">blog</a>
+          <a href="#\" class="hover:text-orange text-white transation duration-300">news</a>
+          <a href="#\" class="hover:text-orange text-white transation duration-300">about</a>
         </div>
         <!-- Log In -->
         <div class="flex items-center space-x-8">
           <!-- Search Area -->
           <form>
-            <div class="group border-r px-4 mx-4 py-1 border-light-green">
+            <div class="group border-r px-4 mx-4 py-1 border-light-orange">
               <input type="text"
-                class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-light-green focus:outline-none w-24 lg:w-44 transition duration-300">
+                class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-light-orange focus:outline-none w-24 lg:w-44 transition duration-300">
               <button class="-ml-4 group-hover:ml-0 transition duration-300">
-                <i class="fas fa-search group-hover:text-light-pink transition duration-300"></i>
+                <i class="fas fa-search group-hover:text-light-orange transition duration-300"></i>
               </button>
             </div>
           </form>
           <!-- Sign Up Area -->
           <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
-            <a href="#\" class="whitespace-nowrap">Log In</a>
+            <a href="#\" class="whitespace-nowrap hover:text-white">Log In</a>
             <a href="#\"
-              class="bg-dark-green text-black px-3 py-1 hover:bg-light-green hover:text-white cursor-pointer transition duration-300 whitespace-nowrap">Sign
+              class="bg-dark-orange text-white px-3 py-1 hover:bg-light-orange hover:text-white cursor-pointer transition duration-300 whitespace-nowrap">Sign
               Up</a>
           </div>
         </div>
@@ -66,6 +66,65 @@
 
     </div>
   </header>
+
+  <!-- Hero Section -->
+  <section class="h-64 md:h-96 lg:h-128 group relative">
+    <!-- Hero Image -->
+    <img src="./img/interstellar.jpg" alt="Interstellar" class="h-full w-full object-cover">
+    <!-- Hero Content -->
+    <div class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
+      <!-- Hero Content Container -->
+      <!-- 
+        Neden ayrı Container yazdık?
+        Çünkü içeriğin tamamına genişlikten bağımsız şekilde ulaşmak istiyorum.
+      -->
+      <div class="container pl-10 lg:pl-0">
+        <h3 class="font-tiltNeon uppercase text-gray-50 tracking-wider group-hover:mb-1 duration-300">
+          Sci-fi, Adventure, Drama
+        </h3>
+        <h1
+          class="font-tiltNeon uppercase text-4xl lg:text-6xl text-dark-orange tracking-wider group-hover:mb-1 duration-300">
+          Interstellar
+        </h1>
+        <p
+          class="font-tiltNeon text-gray-50 tracking-wider group-hover:mb-2 duration-300 text-sm lg:text-base w-3/4 lg:w-2/3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae iste deleniti molestias accusamus deserunt
+          repellat odio laboriosam pariatur neque.
+        </p>
+        <!-- Detail Container -->
+        <div
+          class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-10 lg:group-hover:mb-20 duration-1000">
+          <!-- Watch -->
+          <div class="flex space-x-2 items-center cursor-pointer">
+            <a href="#\"
+              class="font-tiltNeon uppercase text-dark-orange lg:text-lg hover:text-light-orange duration-300">
+              Watch Trailer
+            </a>
+            <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-dark-orange text-gray-50">
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+          <!-- Info -->
+          <div class="flex space-x-2 items-center cursor-pointer">
+            <a href="#\"
+              class="font-tiltNeon uppercase text-dark-orange lg:text-lg hover:text-light-orange duration-300">
+              Full Synopsis
+            </a>
+            <div class="flex h-8 w-8 rounded-full text-center items-center justify-center bg-dark-orange text-gray-50">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Points -->
+    <div class="flex space-x-3 absolute bottom-5 left-10 opacity-0 group-hover:opacity-100 duration-1000">
+      <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gray-50"></div>
+      <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-dark-orange"></div>
+      <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gray-50"></div>
+      <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gray-50"></div>
+    </div>
+  </section>
 </body>
 
 </html>
