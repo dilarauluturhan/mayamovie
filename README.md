@@ -1,2 +1,2 @@
 # MAYA MOVIE
-## It's an Tailwind CSS study. The project is still ongoing.
+## It's a Tailwind CSS study. The project is still ongoing.
