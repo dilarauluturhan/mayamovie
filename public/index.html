@@ -16,9 +16,14 @@
   <title>MAYA MOVIE | Demo</title>
 </head>
 
-<body>
+<body class="dark">
+  <!-- Dark/Light Toggle -->
+  <div class="absolute top-1 left-5 cursor-pointer text-lg">
+    <i class="fa-solid fa-sun text-dark-orange" id="sun"></i>
+    <i class="fa-solid fa-moon text-dark-orange hidden" id="moon"></i>
+  </div>
   <!-- Header Section -->
-  <header class="bg-black py-6 lg:py-12 text-dark-orange font-tiltNeon uppercase">
+  <header class="dark:bg-black bg-slate-100 py-6 lg:py-12 dark:text-dark-orange text-black font-tiltNeon uppercase">
     <!-- Header Container -->
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
       <!-- Logo -->
@@ -36,11 +41,11 @@
       <nav class="hidden md:flex justify-between flex-1">
         <!-- Menu -->
         <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
-          <a href="#\" class="hover:text-orange text-white transation duration-300">movies</a>
-          <a href="#\" class="hover:text-orange text-white transation duration-300">celebrities</a>
-          <a href="#\" class="hover:text-orange text-white transation duration-300">blog</a>
-          <a href="#\" class="hover:text-orange text-white transation duration-300">news</a>
-          <a href="#\" class="hover:text-orange text-white transation duration-300">about</a>
+          <a href="#\" class="hover:text-orange dark:text-white text-black transation duration-300">movies</a>
+          <a href="#\" class="hover:text-orange dark:text-white text-black transation duration-300">celebrities</a>
+          <a href="#\" class="hover:text-orange dark:text-white text-black transation duration-300">blog</a>
+          <a href="#\" class="hover:text-orange dark:text-white text-black transation duration-300">news</a>
+          <a href="#\" class="hover:text-orange dark:text-white text-black transation duration-300">about</a>
         </div>
         <!-- Log In -->
         <div class="flex items-center space-x-8">
@@ -58,7 +63,7 @@
           <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
             <a href="#\" class="whitespace-nowrap hover:text-white">Log In</a>
             <a href="#\"
-              class="bg-dark-orange text-white px-3 py-1 hover:bg-light-orange hover:text-white cursor-pointer transition duration-300 whitespace-nowrap">Sign
+              class="bg-dark-orange dark:text-white text-black px-3 py-1 hover:bg-light-orange hover:text-white cursor-pointer transition duration-300 whitespace-nowrap">Sign
               Up</a>
           </div>
         </div>
@@ -126,7 +131,7 @@
   </section>
 
   <!-- Movie Section -->
-  <section class="py-24 bg-black">
+  <section class="py-24 dark:bg-black bg-slate-100">
     <!-- Movies Content -->
     <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
       <!-- Left Content -->
@@ -137,11 +142,11 @@
             <a href="#\">Latest</a>
           </h2>
           <h2
-            class="font-tiltNeon uppercase text-2xl text-gray-50 tracking-wider pl-2 hover:text-dark-orange duration-300">
+            class="font-tiltNeon uppercase text-2xl dark:text-gray-50 text-black tracking-wider pl-2 hover:text-dark-orange duration-300">
             <a href="#\">Popular</a>
           </h2>
           <h2
-            class="font-tiltNeon uppercase text-2xl text-gray-50 tracking-wider pl-2 hover:text-dark-orange duration-300">
+            class="font-tiltNeon uppercase text-2xl dark:text-gray-50 text-black tracking-wider pl-2 hover:text-dark-orange duration-300">
             <a href="#\">Best</a>
           </h2>
         </div>
@@ -364,7 +369,7 @@
             </div>
             <!-- Item Detail -->
             <div
-              class="pl-6 basis-2/3 text-gray-50 group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
+              class="pl-6 basis-2/3 dark:text-gray-50 text-black group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
               <p class="font-dosis text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, maiores!
               </p>
               <p class="font-dosis text-xs tracking-tighter mt-2 font-bold">ON NOW 03 2023</p>
@@ -378,7 +383,7 @@
             </div>
             <!-- Item Detail -->
             <div
-              class="pl-6 basis-2/3 text-gray-50 group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
+              class="pl-6 basis-2/3 dark:text-gray-50 text-black group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
               <p class="font-dosis text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, maiores!
               </p>
               <p class="font-dosis text-xs tracking-tighter mt-2 font-bold">ON NOW 03 2023</p>
@@ -392,7 +397,7 @@
             </div>
             <!-- Item Detail -->
             <div
-              class="pl-6 basis-2/3 text-gray-50 group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
+              class="pl-6 basis-2/3 dark:text-gray-50 text-black group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
               <p class="font-dosis text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, maiores!
               </p>
               <p class="font-dosis text-xs tracking-tighter mt-2 font-bold">ON NOW 03 2023</p>
@@ -406,7 +411,7 @@
             </div>
             <!-- Item Detail -->
             <div
-              class="pl-6 basis-2/3 text-gray-50 group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
+              class="pl-6 basis-2/3 dark:text-gray-50 text-black group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
               <p class="font-dosis text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, maiores!
               </p>
               <p class="font-dosis text-xs tracking-tighter mt-2 font-bold">ON NOW 03 2023</p>
@@ -420,7 +425,7 @@
             </div>
             <!-- Item Detail -->
             <div
-              class="pl-6 basis-2/3 text-gray-50 group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
+              class="pl-6 basis-2/3 dark:text-gray-50 text-black group-hover:text-dark-orange group-hover:cursor-pointer duration-300">
               <p class="font-dosis text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, maiores!
               </p>
               <p class="font-dosis text-xs tracking-tighter mt-2 font-bold">ON NOW 03 2023</p>
@@ -459,7 +464,7 @@
   </section>
 
   <!-- Post Section -->
-  <section class="py-24 bg-black text-dark-orange">
+  <section class="py-24 dark:bg-black bg-slate-100 text-dark-orange">
     <!-- Container -->
     <div class="container px-10 lg:px-7">
       <!-- Title -->
@@ -472,21 +477,21 @@
         <div class="col-span-6 md:col-span-3 border border-orange rounded-lg">
           <!-- Item 1 Header -->
           <div class="border-b border-orange p-4 flex items-center justify-between">
-            <h3 class="font-tiltNeon uppercase text-slate-200">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+            <h3 class="font-tiltNeon uppercase dark:text-slate-200 text-black">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
             <img src="./img/user1.jpg" alt="" class="rounded-full">
           </div>
           <!-- Item 1 Paragraph -->
-          <p class="font-dosis text-slate-200 p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="font-dosis dark:text-slate-200 text-black p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum
             harum adipisci amet! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</p>
           <!-- Item 1 Footer -->
           <div class="border-t border-orange p-4 flex items-centr justify-end space-x-4 font-bold font-dosis text-xs">
-            <p class="font-tiltNeon uppercase text-slate-200">ON DEC 17, 2022</p>
+            <p class="font-tiltNeon uppercase dark:text-slate-200 text-black">ON DEC 17, 2022</p>
             <div class="flex items-center justify-center space-x-1">
               <i class="fa-regular fa-comment"></i>
-              <p class="font-tiltNeon text-slate-200">12</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">12</p>
               <i class="fa-regular fa-heart"></i>
-              <p class="font-tiltNeon text-slate-200">09</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">09</p>
             </div>
           </div>
         </div>
@@ -494,21 +499,21 @@
         <div class="col-span-6 md:col-span-3 border border-orange rounded-lg">
           <!-- Item 2 Header -->
           <div class="border-b border-orange p-4 flex items-center justify-between">
-            <h3 class="font-tiltNeon uppercase text-slate-200">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+            <h3 class="font-tiltNeon uppercase dark:text-slate-200 text-black">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
             <img src="./img/user2.jpg" alt="" class="rounded-full">
           </div>
           <!-- Item 2 Paragraph -->
-          <p class="font-dosis text-slate-200 p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="font-dosis dark:text-slate-200 text-black p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum
             harum adipisci amet! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</p>
           <!-- Item 2 Footer -->
           <div class="border-t border-orange p-4 flex items-centr justify-end space-x-4 font-bold font-dosis text-xs">
-            <p class="font-tiltNeon uppercase text-slate-200">ON DEC 17, 2022</p>
+            <p class="font-tiltNeon uppercase dark:text-slate-200 text-black">ON DEC 17, 2022</p>
             <div class="flex items-center justify-center space-x-1">
               <i class="fa-regular fa-comment"></i>
-              <p class="font-tiltNeon text-slate-200">12</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">12</p>
               <i class="fa-regular fa-heart"></i>
-              <p class="font-tiltNeon text-slate-200">09</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">09</p>
             </div>
           </div>
         </div>
@@ -516,21 +521,21 @@
         <div class="col-span-6 md:col-span-3 lg:col-span-2 border border-orange rounded-lg">
           <!-- Item 3 Header -->
           <div class="border-b border-orange p-4 flex items-center justify-between">
-            <h3 class="font-tiltNeon uppercase text-slate-200">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+            <h3 class="font-tiltNeon uppercase dark:text-slate-200 text-black">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
             <img src="./img/user3.jpg" alt="" class="rounded-full">
           </div>
           <!-- Item 3 Paragraph -->
-          <p class="font-dosis text-slate-200 p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="font-dosis dark:text-slate-200 text-black p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum
             harum adipisci amet! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</p>
           <!-- Item 3 Footer -->
           <div class="border-t border-orange p-4 flex items-centr justify-end space-x-4 font-bold font-dosis text-xs">
-            <p class="font-tiltNeon uppercase text-slate-200">ON DEC 17, 2022</p>
+            <p class="font-tiltNeon uppercase dark:text-slate-200 text-black">ON DEC 17, 2022</p>
             <div class="flex items-center justify-center space-x-1">
               <i class="fa-regular fa-comment"></i>
-              <p class="font-tiltNeon text-slate-200">12</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">12</p>
               <i class="fa-regular fa-heart"></i>
-              <p class="font-tiltNeon text-slate-200">09</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">09</p>
             </div>
           </div>
         </div>
@@ -538,21 +543,21 @@
         <div class="col-span-6 md:col-span-3 lg:col-span-2 border border-orange rounded-lg">
           <!-- Item 4 Header -->
           <div class="border-b border-orange p-4 flex items-center justify-between">
-            <h3 class="font-tiltNeon uppercase text-slate-200">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+            <h3 class="font-tiltNeon uppercase dark:text-slate-200 text-black">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
             <img src="./img/user4.jpg" alt="" class="rounded-full">
           </div>
           <!-- Item 4 Paragraph -->
-          <p class="font-dosis text-slate-200 p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="font-dosis dark:text-slate-200 text-black p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum
             harum adipisci amet! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</p>
           <!-- Item 4 Footer -->
           <div class="border-t border-orange p-4 flex items-centr justify-end space-x-4 font-bold font-dosis text-xs">
-            <p class="font-tiltNeon uppercase text-slate-200">ON DEC 17, 2022</p>
+            <p class="font-tiltNeon uppercase dark:text-slate-200 text-black">ON DEC 17, 2022</p>
             <div class="flex items-center justify-center space-x-1">
               <i class="fa-regular fa-comment"></i>
-              <p class="font-tiltNeon text-slate-200">12</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">12</p>
               <i class="fa-regular fa-heart"></i>
-              <p class="font-tiltNeon text-slate-200">09</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">09</p>
             </div>
           </div>
         </div>
@@ -560,21 +565,21 @@
         <div class="hidden lg:block lg:col-span-2 border border-orange rounded-lg">
           <!-- Item 5 Header -->
           <div class="border-b border-orange p-4 flex items-center justify-between">
-            <h3 class="font-tiltNeon uppercase text-slate-200">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+            <h3 class="font-tiltNeon uppercase dark:text-slate-200 text-black">ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
             <img src="./img/user5.jpg" alt="" class="rounded-full">
           </div>
           <!-- Item 5 Paragraph -->
-          <p class="font-dosis text-slate-200 p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="font-dosis dark:text-slate-200 text-black p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum
             harum adipisci amet! Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.</p>
           <!-- Item 5 Footer -->
           <div class="border-t border-orange p-4 flex items-centr justify-end space-x-4 font-bold font-dosis text-xs">
-            <p class="font-tiltNeon uppercase text-slate-200">ON DEC 17, 2022</p>
+            <p class="font-tiltNeon uppercase dark:text-slate-200 text-black">ON DEC 17, 2022</p>
             <div class="flex items-center justify-center space-x-1">
               <i class="fa-regular fa-comment"></i>
-              <p class="font-tiltNeon text-slate-200">12</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">12</p>
               <i class="fa-regular fa-heart"></i>
-              <p class="font-tiltNeon text-slate-200">09</p>
+              <p class="font-tiltNeon dark:text-slate-200 text-black">09</p>
             </div>
           </div>
         </div>
@@ -583,24 +588,24 @@
   </section>
 
   <!-- Footer Section -->
-  <footer class="bg-black text-slate-200">
+  <footer class="dark:bg-black bg-slate-100 text-slate-200">
     <!-- Footer Container -->
     <div class="container flex flex-col md:flex-row px-10 lg:px-5 pb-8">
       <!-- Left -->
       <div class="basis-1/3">
         <a href="#\"
           class="font-tiltNeon text-3xl lg:text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-dark-orange to-white">MAYA</a>
-        <p class="font-dosis text-sm mt-2">2023 MayaMovie No &copy; COPYRIGHT</p>
+        <p class="font-dosis text-sm mt-2 dark:text-slate-200 text-black">2023 MayaMovie No &copy; COPYRIGHT</p>
       </div>
       <!-- Middle -->
       <div class="basis-1/3">
         <h2 class="font-tiltNeon uppercase font-bold mb-2 text-dark-orange text-xl mt-5 lg:mt-0">Links</h2>
         <div class="grid grid-cols-5 gap-2 uppercase">
-          <a class="col-span-2 font-dosis hover:text-dark-orange duration-300" href="#\">Movies</a>
-          <a class="col-span-2 font-dosis hover:text-dark-orange duration-300" href="#\">Celebrities</a>
-          <a class="col-span-2 font-dosis hover:text-dark-orange duration-300" href="#\">Blog</a>
-          <a class="col-span-2 font-dosis hover:text-dark-orange duration-300" href="#\">News</a>
-          <a class="col-span-2 font-dosis hover:text-dark-orange duration-300" href="#\">About</a>
+          <a class="col-span-2 font-dosis dark:text-slate-200 text-black hover:text-dark-orange duration-300" href="#\">Movies</a>
+          <a class="col-span-2 font-dosis dark:text-slate-200 text-black hover:text-dark-orange duration-300" href="#\">Celebrities</a>
+          <a class="col-span-2 font-dosis dark:text-slate-200 text-black hover:text-dark-orange duration-300" href="#\">Blog</a>
+          <a class="col-span-2 font-dosis dark:text-slate-200 text-black hover:text-dark-orange duration-300" href="#\">News</a>
+          <a class="col-span-2 font-dosis dark:text-slate-200 text-black hover:text-dark-orange duration-300" href="#\">About</a>
         </div>
       </div>
       <!-- Right -->
@@ -610,11 +615,13 @@
           <input class="py-1 px-2 bg-transparent border border-dark-orange rounded-lg placeholder:text-xs outline-none"
             placeholder="TYPE YOUR E-MAIL" type="text">
           <button
-            class="font-dosis text-slate-200 uppercase py-1 px-2 bg-transparent border border-dark-orange rounded-lg">Subscribe</button>
+            class="font-dosis dark:text-slate-200 text-black uppercase py-1 px-2 bg-transparent border border-dark-orange rounded-lg">Subscribe</button>
         </form>
       </div>
     </div>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
